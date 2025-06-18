@@ -1,4 +1,4 @@
-# IBM Storage 
+#  IBM Storage 
 Meta configuration for IBM Storage Github Org
 
 This repository contains the metadata configuration for the IBM Storage GitHub Organizations. The data here is consumed by the [peribolos](https://docs.prow.k8s.io/docs/components/cli-tools/peribolos/) tool to manage the organization and memberships, as well as team creation and deletion.

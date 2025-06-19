@@ -1,146 +1,182 @@
-admins:
-- andrewschoen
-- bigjust
-- ibm-reaper
-- jjasghar
-- Pradnya-Chikhale
-- psathyan
-- sachin-yeshwanth11
-company: ""
-default_repository_permission: write
-description: ""
-email: ""
-has_organization_projects: true
-has_repository_projects: true
-location: ""
-members_can_create_repositories: true
-name: ""
-repos:
-  ceph:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    description: 'Ceph is a distributed object, block, and file storage platform '
-    has_issues: false
-    has_projects: true
-    has_wiki: false
-    homepage: https://ceph.io
-  ceph-nvmeof:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: devel
-    description: Service to provide Ceph storage over NVMe-oF/TCP protocol
-    has_issues: false
-    has_projects: true
-  haproxy:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    description: container image for haproxy for ceph components
-    has_projects: true
-  ibm-storageinsights-chatbot:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    has_projects: true
-  ibm-storageinsights-ecosystem-dynatrace:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    has_projects: true
-  ibm-storageinsights-ecosystem-grafana:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    has_projects: true
-  ibm-storageinsights-ecosystem-prometheus:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    has_projects: true
-  jcadf:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    has_projects: true
-  keepalived:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: ceph-8.1-rhel-9
-    description: forked keepalived repository from https://pkgs.devel.redhat.com/cgit/containers/
-    has_projects: true
-  renaming:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    description: tracking renaming this org
-    has_projects: true
-  samba:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    has_projects: true
-  samba-build:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    description: Customized Samba Builds
-    has_issues: false
-    has_projects: true
-  samba-container:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    description: Build Samba Container Images / Kubernetes & Container Runtime Example
-      Files
-    has_issues: false
-    has_projects: true
-    has_wiki: false
-  samba-server-container:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    description: Containerfiles and scripts for samba-server container builds
-    has_projects: true
-  sambacc:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    description: A library and CLI tools for managing Samba servers in containers.
-    has_projects: true
-    has_wiki: false
-  smbmetrics:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    description: Samba metrics exporter
-    has_issues: false
-    has_projects: true
-  smbmetrics-container:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: main
-    description: Containerfiles and scripts for smbmetrics container builds
-    has_projects: true
-  snmp-notifier:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    default_branch: release-8.1
-    description: mirror snmp-notifier repository from https://pkgs.devel.redhat.com/git/containers/snmp-notifier
-    has_projects: true
+orgs:
+  ibmstorage:
+    admins:
+    - andrewschoen
+    - bigjust
+    - ibm-reaper
+    - jjasghar
+    - Pradnya-Chikhale
+    - psathyan
+    - rakshithakamath94
+    - sachin-yeshwanth11
+    members:
+    - anoopcs9
+    - phlogistonjohn
+    company: IBM
+    default_repository_permission: read
+    description: ""
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: true
+    location: ""
+    members_can_create_repositories: false
+    name: IBM Storage
+    repos:
+      ceph:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: 'Ceph is a distributed object, block, and file storage platform '
+        has_issues: false
+        has_projects: true
+        has_wiki: false
+        homepage: https://ceph.io
+      ceph-nvmeof:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: devel
+        description: Service to provide Ceph storage over NVMe-oF/TCP protocol
+        has_issues: false
+        has_projects: true
+      haproxy:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: container image for haproxy for ceph components
+        has_projects: true
+      ibm-storageinsights-chatbot:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
+      ibm-storageinsights-ecosystem-dynatrace:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
+      ibm-storageinsights-ecosystem-grafana:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
+      ibm-storageinsights-ecosystem-prometheus:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
+      jcadf:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        has_projects: true
+      keepalived:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: ceph-8.1-rhel-9
+        description: forked keepalived repository from https://pkgs.devel.redhat.com/cgit/containers/
+        has_projects: true
+      org:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Meta configuration for IBM Storage Github Org
+        has_projects: true
+      renaming:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: tracking renaming this org
+        has_projects: true
+      samba:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
+      samba-build:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Customized Samba Builds
+        has_issues: false
+        has_projects: true
+      samba-container:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Build Samba Container Images / Kubernetes & Container Runtime
+          Example Files
+        has_issues: false
+        has_projects: true
+        has_wiki: false
+      samba-server-container:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Containerfiles and scripts for samba-server container builds
+        has_projects: true
+      sambacc:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: A library and CLI tools for managing Samba servers in containers.
+        has_projects: true
+        has_wiki: false
+      smbmetrics:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Samba metrics exporter
+        has_issues: false
+        has_projects: true
+      smbmetrics-container:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Containerfiles and scripts for smbmetrics container builds
+        has_projects: true
+      snmp-notifier:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: release-8.1
+        description: mirror snmp-notifier repository from https://pkgs.devel.redhat.com/git/containers/snmp-notifier
+        has_projects: true
+    teams:
+      ceph-build-team:
+        description: ceph build team
+        maintainers:
+        - andrewschoen
+        - bigjust
+        - Pradnya-Chikhale
+        - sachin-yeshwanth11
+        - rakshithakamath94
+        privacy: closed
+      samba-dev-team:
+        description: samba dev team
+        maintainers:
+        - andrewschoen
+        - anoopcs9
+        - phlogistonjohn
+        privacy: closed
+        repos:
+          samba: write
+          samba-server-container: write
+          sambacc: write
+          smbmetrics: write
+          smbmetrics-container: write
 

@@ -185,3 +185,8 @@ orgs:
         maintainers:
         - shubh1410
         privacy: closed
+        repos:
+          ibm-storageinsights-chatbot: write
+          ibm-storageinsights-ecosystem-dynatrace: write
+          ibm-storageinsights-ecosystem-grafana: write
+          ibm-storageinsights-ecosystem-prometheus: write

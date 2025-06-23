@@ -90,13 +90,6 @@ orgs:
         default_branch: main
         description: Meta configuration for IBM Storage Github Org
         has_projects: true
-      renaming:
-        allow_merge_commit: false
-        allow_rebase_merge: true
-        allow_squash_merge: false
-        default_branch: main
-        description: tracking renaming this org
-        has_projects: true
       samba:
         allow_merge_commit: false
         allow_rebase_merge: true

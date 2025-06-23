@@ -166,6 +166,13 @@ orgs:
         - sachin-yeshwanth11
         - rakshithakamath94
         privacy: closed
+        repos:
+          ceph: write
+          ceph-nvmeof: write
+          haproxy: write
+          keepalived: write
+          org: write
+          snmp-notifier: write
       samba-dev-team:
         description: samba dev team
         maintainers:

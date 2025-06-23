@@ -12,6 +12,7 @@ orgs:
     members:
     - anoopcs9
     - phlogistonjohn
+    - shubh1410
     company: IBM
     default_repository_permission: read
     description: ""
@@ -179,4 +180,8 @@ orgs:
           sambacc: write
           smbmetrics: write
           smbmetrics-container: write
-
+      storageinsights-team:
+        description: IBM Storage Insights
+        maintainers:
+        - shubh1410
+        privacy: closed

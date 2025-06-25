@@ -3,19 +3,9 @@ Meta configuration for IBM Storage Github Org
 
 This repository contains the metadata configuration for the IBM Storage GitHub Organizations. The data here is consumed by the [peribolos](https://docs.prow.k8s.io/docs/components/cli-tools/peribolos/) tool to manage the organization and memberships, as well as team creation and deletion.
 
-# Notes:
+# User and Repo Creation
 
-To get existing config:
-```
-./cmd/peribolos --log-level info --dump ibmstorage --github-token-path /path/to/git-token
-```
+All members must have an IBM w3ID linked with their github profile to be given access. Please complete the steps [here](https://gh-user-map.opensource.dal.dev.cirrus.ibm.com/) 
+to complete that process.
 
-To update config, defaults as a dry-run. Add `--confirm` to make the change:
-```
-./cmd/peribolos --config-path ./config/org.yaml --github-token-path /path/to/git-token
-```
-
-peribolos install, saved to GOBIN:
-```
-GOBIN=$(OUTPUT_BIN_DIR) go install sigs.k8s.io/prow/cmd/peribolos@main
-```
+After that step is complete make a PR to `config/org.yaml` with your changes or additions. Please keep all entries in alphabetical order.

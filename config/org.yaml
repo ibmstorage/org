@@ -13,6 +13,9 @@ orgs:
     - anoopcs9
     - phlogistonjohn
     - shubh1410
+    - binayakdutta
+    - luminous-prize
+    - archupsg03
     company: IBM
     default_repository_permission: read
     description: IBM Storage
@@ -82,6 +85,12 @@ orgs:
         default_branch: main
         has_projects: true
       ibm-storageinsights-ecosystem-prometheus:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
+      ibm-storageinsights-mcpserver:
         allow_merge_commit: false
         allow_rebase_merge: true
         allow_squash_merge: false
@@ -208,9 +217,13 @@ orgs:
         description: IBM Storage Insights
         maintainers:
         - shubh1410
+        - binayakdutta
+        - luminous-prize
+        - archupsg03
         privacy: closed
         repos:
           ibm-storageinsights-chatbot: write
           ibm-storageinsights-ecosystem-dynatrace: write
           ibm-storageinsights-ecosystem-grafana: write
           ibm-storageinsights-ecosystem-prometheus: write
+          ibm-storageinsights-mcpserver: write

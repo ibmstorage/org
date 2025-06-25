@@ -15,7 +15,7 @@ orgs:
     - shubh1410
     company: IBM
     default_repository_permission: read
-    description: ""
+    description: IBM Storage
     email: ""
     has_organization_projects: true
     has_repository_projects: true

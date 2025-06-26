@@ -49,6 +49,13 @@ orgs:
         description: Service to provide Ceph storage over NVMe-oF/TCP protocol
         has_issues: false
         has_projects: true
+      grafana:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: release-8.1
+        description: rh container image for grafana from https://github.com/grafana/grafana
+        has_projects: true
       haproxy:
         allow_merge_commit: false
         allow_rebase_merge: true
@@ -158,6 +165,13 @@ orgs:
         default_branch: release-8.1
         description: mirror snmp-notifier repository from https://pkgs.devel.redhat.com/git/containers/snmp-notifier
         has_projects: true
+      promtail:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: release-8.1
+        description: rh downstream build of https://github.com/grafana/loki (https://pkgs.devel.redhat.com/git/containers/promtail)
+        has_projects: true
     teams:
       ceph-build-team:
         description: ceph build team
@@ -172,9 +186,11 @@ orgs:
           ceph: write
           ceph-nvmeof: write
           haproxy: write
+          grafana: write
           keepalived: write
           org: write
           snmp-notifier: write
+          promtail: write
       samba-dev-team:
         description: samba dev team
         maintainers:

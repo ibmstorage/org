@@ -52,12 +52,12 @@ orgs:
         description: Service to provide Ceph storage over NVMe-oF/TCP protocol
         has_issues: false
         has_projects: true
-      grafana:
+      grafana-container:
         allow_merge_commit: false
         allow_rebase_merge: true
         allow_squash_merge: false
         default_branch: release-8.1
-        description: rh container image for grafana from https://github.com/grafana/grafana
+        description: rh container image for grafana from https://github.com/ibmstorage/grafana
         has_projects: true
       haproxy:
         allow_merge_commit: false
@@ -195,7 +195,7 @@ orgs:
           ceph: write
           ceph-nvmeof: write
           haproxy: write
-          grafana: write
+          grafana-container: write
           keepalived: write
           org: write
           snmp-notifier: write

@@ -94,7 +94,6 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: true
         allow_squash_merge: false
-        default_branch: main
         has_projects: true
       jcadf:
         allow_merge_commit: false

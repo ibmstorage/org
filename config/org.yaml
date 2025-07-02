@@ -166,7 +166,7 @@ orgs:
         default_branch: main
         description: Containerfiles and scripts for smbmetrics container builds
         has_projects: true
-      snmp-notifier:
+      snmp-notifier-container:
         allow_merge_commit: false
         allow_rebase_merge: true
         allow_squash_merge: false
@@ -197,7 +197,7 @@ orgs:
           grafana-container: write
           keepalived: write
           org: write
-          snmp-notifier: write
+          snmp-notifier-container: write
           promtail: write
       samba-dev-team:
         description: samba dev team

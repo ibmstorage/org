@@ -114,6 +114,13 @@ orgs:
         default_branch: main
         description: Meta configuration for IBM Storage Github Org
         has_projects: true
+      rhceph-container:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Dockerfile for building rhceph container from https://pkgs.devel.redhat.com/cgit/containers/rhceph
+        has_projects: true
       samba:
         allow_merge_commit: false
         allow_rebase_merge: true
@@ -197,6 +204,7 @@ orgs:
           grafana-container: write
           keepalived: write
           org: write
+          rhceph-container: write
           snmp-notifier-container: write
           promtail: write
       samba-dev-team:

@@ -199,6 +199,7 @@ orgs:
         privacy: closed
         repos:
           ceph: write
+          ceph-konflux-casc: write
           ceph-nvmeof: write
           haproxy: write
           grafana-container: write

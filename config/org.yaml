@@ -17,6 +17,7 @@ orgs:
     - binayakdutta
     - luminous-prize
     - archupsg03
+    - tanmoyee04
     company: IBM
     default_repository_permission: read
     description: IBM Storage
@@ -230,6 +231,7 @@ orgs:
         - binayakdutta
         - luminous-prize
         - archupsg03
+        - tanmoyee04
         privacy: closed
         repos:
           ibm-storageinsights-chatbot: write

@@ -3,6 +3,8 @@ orgs:
     admins:
     - andrewschoen
     - bigjust
+    - chroinfinity
+    - Gaurav1A
     - ibm-ceph-bot
     - ibm-reaper
     - jjasghar
@@ -196,6 +198,8 @@ orgs:
         maintainers:
         - andrewschoen
         - bigjust
+        - chroinfinity
+        - Gaurav1A
         - ibm-ceph-bot
         - Pradnya-Chikhale
         - sachin-yeshwanth11

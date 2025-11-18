@@ -10,6 +10,7 @@ orgs:
     - psathyan
     - rakshithakamath94
     - sachin-yeshwanth11
+    - tserlin
     members:
     - anoopcs9
     - phlogistonjohn
@@ -199,6 +200,7 @@ orgs:
         - Pradnya-Chikhale
         - sachin-yeshwanth11
         - rakshithakamath94
+        - tserlin
         privacy: closed
         repos:
           ceph: write
